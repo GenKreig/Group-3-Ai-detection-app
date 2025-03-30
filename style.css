@@ -1,0 +1,16 @@
+/*/* Futuristic AI Detection Styles */ body { background-color: #0d0d0d; font-family: 'Arial', sans-serif; color: #e0e0e0; margin: 0; padding: 0; display: flex; justify-content: center; align-items: center; height: 100vh; }
+
+#welcome-screen, #main-interface { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; width: 400px; background: linear-gradient(135deg, #1a1a1a, #292929); padding: 25px; border-radius: 15px; box-shadow: 0px 0px 20px rgba(255, 64, 129, 0.5); border: 2px solid #ff4081; }
+
+h1, h2 { color: #ff4081; font-size: 1.8rem; text-shadow: 0px 0px 10px rgba(255, 64, 129, 0.6); }
+
+button { width: 100%; height: 45px; padding: 10px; font-size: 16px; background: linear-gradient(135deg, #ff4081, #ff6f61); color: #ffffff; border: none; border-radius: 8px; cursor: pointer; transition: 0.3s; box-shadow: 0 4px 10px rgba(255, 64, 129, 0.5); }
+
+button:hover { background: linear-gradient(135deg, #ff6f61, #ff4081); box-shadow: 0 6px 15px rgba(255, 64, 129, 0.7); }
+
+textarea { width: 100%; height: 120px; padding: 12px; font-size: 16px; border: none; border-radius: 8px; background: #292929; color: #ffffff; resize: none; box-shadow: inset 0 0 10px rgba(255, 64, 129, 0.2); }
+
+#results { width: 100%; padding: 15px; margin-top: 10px; background: #1f1f1f; border-radius: 8px; border: 2px solid #ff4081; color: #e0e0e0; font-size: 1rem; text-align: center; }
+
+input[type="file"] { margin-top: 10px; border: 2px solid #ff4081; padding: 5px; background: #1f1f1f; color: #e0e0e0; border-radius: 8px; }
+
